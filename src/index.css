@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gobold CUTS";
+  src:
+    url("/fonts/GoboldCUTS.woff2") format("woff2"),
+    url("/fonts/GoboldCUTS.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    /* Header fixed : py-4 + ligne ~24px */
+    --header-h: 4.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    :root {
+      /* lg:py-5 */
+      --header-h: 5rem;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-primary text-secondary font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-secondary text-primary;
+  }
+
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-secondary;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-secondary px-8 py-3
+      text-sm font-medium tracking-wide text-primary transition-all duration-300 ease-editorial
+      hover:scale-[1.03] hover:shadow-[0_8px_30px_rgba(244,241,235,0.25)]
+      active:scale-[0.98] focus-visible:outline focus-visible:outline-2
+      focus-visible:outline-offset-2 focus-visible:outline-secondary;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-secondary/40
+      px-8 py-3 text-sm font-medium tracking-wide text-secondary transition-all duration-300
+      ease-editorial hover:border-secondary hover:bg-secondary/10 hover:scale-[1.02]
+      active:scale-[0.98];
+  }
+
+  .section-pad {
+    @apply px-gutter py-section;
+  }
+
+  /* Filigrane rainuré — Gobold CUTS (glyphes déjà découpés en bandes) */
+  .watermark-cuts {
+    @apply pointer-events-none select-none uppercase leading-none;
+    font-family: "Gobold CUTS", "Libre Franklin", sans-serif;
+    font-size: clamp(6rem, 14vw, 11rem);
+    letter-spacing: 0.06em;
+    color: rgba(244, 241, 235, 0.12);
+  }
+}
