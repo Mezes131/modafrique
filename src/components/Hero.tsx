@@ -29,10 +29,10 @@ export function Hero() {
 
       <motion.div
         style={{ opacity }}
-        className="relative z-10 mx-auto max-w-3xl px-gutter text-center md:max-w-5xl"
+        className="relative z-10 mx-auto max-w-3xl px-gutter text-center md:max-w-5xl [text-shadow:0_2px_24px_rgba(0,0,0,0.35),0_1px_4px_rgba(0,0,0,0.8)]"
       >
         <motion.p
-          className="mb-4 text-overline uppercase text-secondary/70"
+          className="mb-4 text-overline uppercase text-secondary/90"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.15 }}
@@ -40,7 +40,7 @@ export function Hero() {
           Collection Équinoxe 2026
         </motion.p>
         <motion.h1
-          className="font-display text-display-xl font-black text-secondary text-balance md:text-pretty"
+          className="font-display text-display-xl font-black text-secondary text-balance md:text-pretty [text-shadow:0_4px_32px_rgba(0,0,0,0.25),0_2px_8px_rgba(0,0,0,0.7)]"
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.25 }}
@@ -51,7 +51,7 @@ export function Hero() {
           avec excellence
         </motion.h1>
         <motion.p
-          className="mx-auto mt-5 max-w-xl text-base text-secondary/75 sm:text-lg"
+          className="mx-auto mt-5 max-w-xl text-base text-secondary/90 sm:text-lg"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
@@ -61,15 +61,15 @@ export function Hero() {
           reconnaissable.
         </motion.p>
         <motion.div
-          className="mt-10 flex flex-wrap items-center justify-center gap-4"
+          className="mt-10 flex flex-wrap items-center justify-center gap-4 [text-shadow:none]"
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.55 }}
         >
-          <a href="#featured" className="btn-primary">
+          <a href="#featured" className="btn-primary [text-shadow:none]">
             Découvrir la collection
           </a>
-          <a href="#new-arrival" className="btn-ghost">
+          <a href="#new-arrival" className="btn-ghost [text-shadow:none]">
             Voir les nouveautés
           </a>
         </motion.div>
