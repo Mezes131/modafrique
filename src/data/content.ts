@@ -29,20 +29,20 @@ export const categories: Category[] = [
 export const valueProps: ValueProp[] = [
   {
     id: "shipping",
-    title: "Livraison rapide & gratuite",
-    description: "Offerte dès 50 000 XAF",
+    title: "Livraison offerte",
+    description: "Gratuite dès 50 000 XAF, suivie jusqu'à votre porte",
     icon: "truck",
   },
   {
     id: "quality",
-    title: "Produits authentiques",
-    description: "Wax & tissus sélectionnés",
+    title: "Authenticité garantie",
+    description: "Wax et tissus sélectionnés auprès d'ateliers partenaires",
     icon: "shield",
   },
   {
     id: "returns",
     title: "Retours sous 14 jours",
-    description: "Remboursement intégral",
+    description: "Échange ou remboursement intégral, sans complication",
     icon: "rotate",
   },
 ];
@@ -50,7 +50,7 @@ export const valueProps: ValueProp[] = [
 export const trends: TrendLook[] = [
   { id: "t1", title: "Wax urbain", image: img("trend-1.jpg") },
   { id: "t2", title: "Élégance street", image: img("trend-2.jpg") },
-  { id: "t3", title: "Soleil & texture", image: img("trend-3.jpg") },
+  { id: "t3", title: "Lumière & texture", image: img("trend-3.jpg") },
   { id: "t4", title: "Rouge contemporain", image: img("trend-4.jpg") },
 ];
 
@@ -58,7 +58,7 @@ export const products: Product[] = [
   {
     id: "p1",
     name: "Robe épaules nues wax",
-    material: "Coton wax imprimé",
+    material: "Coton wax imprimé, coupe fluide",
     price: 28500,
     badge: "nouveau",
     rating: 4.8,
@@ -86,7 +86,7 @@ export const products: Product[] = [
   {
     id: "p2",
     name: "Ensemble coupe africaine",
-    material: "Wax stretch",
+    material: "Wax stretch, twin-set contemporain",
     price: 42000,
     compareAtPrice: 60000,
     badge: "promo",
@@ -108,7 +108,7 @@ export const products: Product[] = [
   {
     id: "p3",
     name: "Robe droite print vert",
-    material: "Coton imprimé",
+    material: "Coton imprimé, silhouette droite",
     price: 35000,
     rating: 4.9,
     reviewCount: 67,
@@ -135,7 +135,7 @@ export const products: Product[] = [
   {
     id: "p4",
     name: "Robe danse des couleurs",
-    material: "Voile & wax",
+    material: "Voile et wax, volume léger",
     price: 31000,
     badge: "nouveau",
     rating: 4.5,
@@ -156,7 +156,7 @@ export const products: Product[] = [
   {
     id: "p5",
     name: "Robe fente off-shoulder",
-    material: "Coton stretch",
+    material: "Coton stretch, fente latérale",
     price: 38000,
     compareAtPrice: 45000,
     badge: "promo",
@@ -178,7 +178,7 @@ export const products: Product[] = [
   {
     id: "p6",
     name: "Robe tribal + châle",
-    material: "Coton & jersey",
+    material: "Coton et jersey, châle assorti",
     price: 36500,
     rating: 5,
     reviewCount: 51,
@@ -198,7 +198,7 @@ export const products: Product[] = [
   {
     id: "p7",
     name: "Robe fleurs d'oranger",
-    material: "Organza imprimé",
+    material: "Organza imprimé, tombé ample",
     price: 48000,
     badge: "nouveau",
     rating: 4.4,
@@ -226,7 +226,7 @@ export const products: Product[] = [
   {
     id: "p8",
     name: "Longue veste wax",
-    material: "Coton wax structuré",
+    material: "Coton wax structuré, longueur maxi",
     price: 52000,
     rating: 4.8,
     reviewCount: 22,

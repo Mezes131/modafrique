@@ -41,10 +41,11 @@ export function Newsletter() {
                   <Check className="h-7 w-7" />
                 </span>
                 <p className="font-display text-2xl font-black">
-                  Bienvenue dans le club
+                  Inscription confirmée
                 </p>
                 <p className="text-sm text-secondary-muted">
-                  −10&nbsp;% sur votre première commande — code envoyé par e-mail.
+                  Votre code −10&nbsp;% arrive par e-mail. Bienvenue dans
+                  l&apos;univers ModAfrique.
                 </p>
               </motion.div>
             ) : (
@@ -61,8 +62,8 @@ export function Newsletter() {
                   Newsletter
                 </h2>
                 <p className="text-sm text-secondary-muted">
-                  Recevez −10&nbsp;% sur votre première commande et les avant-premières
-                  collection.
+                  Recevez −10&nbsp;% sur votre première commande, les
+                  avant-premières collection et les invitations lookbook.
                 </p>
                 <label className="block text-left">
                   <span className="sr-only">Prénom</span>

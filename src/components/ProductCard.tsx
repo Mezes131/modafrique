@@ -96,7 +96,7 @@ export function ProductCard({ product }: ProductCardProps) {
           />
         </button>
 
-        {/* Size selector — appears on hover / focus-within */}
+        {/* Size selector: appears on hover / focus-within */}
         <div
           className={`absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-primary/90 to-transparent px-3 pb-3 pt-10 transition duration-300 ${
             hovered

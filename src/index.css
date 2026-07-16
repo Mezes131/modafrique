@@ -62,7 +62,7 @@
     @apply px-gutter py-section;
   }
 
-  /* Filigrane rainuré — Gobold CUTS (glyphes déjà découpés en bandes) */
+  /* Filigrane rainure: Gobold CUTS (glyphes deja decoupes en bandes) */
   .watermark-cuts {
     @apply pointer-events-none select-none uppercase leading-none;
     font-family: "Gobold CUTS", "Libre Franklin", sans-serif;

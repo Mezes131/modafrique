@@ -14,8 +14,9 @@ export function Categories() {
             Catégories
           </h2>
           <p className="max-w-md text-sm leading-relaxed text-secondary-muted md:text-right">
-            Homme, femme, enfants — explorez des silhouettes contemporaines
-            ancrées dans le savoir-faire africain.
+            Homme, femme, enfants : des silhouettes contemporaines ancrées dans
+            le savoir-faire africain, du wax du quotidien aux pièces de
+            cérémonie.
           </p>
         </div>
       </SectionReveal>

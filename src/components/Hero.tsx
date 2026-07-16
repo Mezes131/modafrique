@@ -20,7 +20,7 @@ export function Hero() {
       <motion.div style={{ y }} className="absolute inset-0">
         <img
           src="/images/banner.webp"
-          alt="Lookbook ModAfrique — mode contemporaine africaine"
+          alt="Lookbook ModAfrique : mode contemporaine africaine"
           className="h-full w-full object-cover"
           fetchPriority="high"
         />
@@ -37,7 +37,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.15 }}
         >
-          Collection 2026
+          Collection Équinoxe 2026
         </motion.p>
         <motion.h1
           className="font-display text-display-xl font-black text-secondary text-balance md:text-pretty"
@@ -56,8 +56,9 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          Des pièces africaines contemporaines, pensées comme un lookbook —
-          matière noble, coupe précise, caractère.
+          Des pièces africaines contemporaines conçues comme un lookbook :
+          matières nobles, coupes affirmées, caractère immédiatement
+          reconnaissable.
         </motion.p>
         <motion.div
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
@@ -69,7 +70,7 @@ export function Hero() {
             Découvrir la collection
           </a>
           <a href="#new-arrival" className="btn-ghost">
-            Nouveautés
+            Voir les nouveautés
           </a>
         </motion.div>
       </motion.div>

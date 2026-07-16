@@ -41,7 +41,7 @@ export function Footer() {
             ModAfrique
           </p>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-secondary-muted">
-            Mode contemporaine africaine — wax, silhouettes modernes et
+            Mode contemporaine africaine : wax, silhouettes modernes et
             savoir-faire artisanal, livrés partout en Afrique centrale et
             au-delà.
           </p>
@@ -90,7 +90,14 @@ export function Footer() {
       <div className="border-t border-surface-border px-gutter py-5">
         <div className="mx-auto flex max-w-site flex-col items-center justify-between gap-3 text-xs text-secondary-muted sm:flex-row">
           <p>© {new Date().getFullYear()} ModAfrique. Tous droits réservés.</p>
-          <p>Mode contemporaine africaine · XAF</p>
+          <a
+            href="https://mezescorp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition hover:text-secondary"
+          >
+            Made by Mezes
+          </a>
         </div>
       </div>
     </footer>

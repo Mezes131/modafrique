@@ -2,7 +2,7 @@ import { ChevronRight } from "lucide-react";
 import { BlurImage, SectionReveal } from "./ui";
 
 /**
- * Bannière soldes mariage — fidèle à la maquette :
+ * Bannière soldes mariage (fidèle à la maquette) :
  * 2 photos portrait | panneau gris coupe diagonale | titre Heavy + >> XXL
  */
 export function PromoBanner() {
@@ -17,7 +17,7 @@ export function PromoBanner() {
           href="#featured"
           className="group relative mx-auto flex max-w-site flex-col overflow-hidden bg-surface-elevated md:min-h-[20rem] md:flex-row lg:min-h-[22rem]"
         >
-          {/* Photos — ordre maquette : crème à gauche, rose à droite */}
+          {/* Photos: ordre maquette (creme a gauche, rose a droite) */}
           <div className="grid h-56 shrink-0 grid-cols-2 md:h-auto md:w-[48%] lg:w-[46%]">
             <BlurImage
               src="/images/wedding-1.webp"
@@ -33,7 +33,7 @@ export function PromoBanner() {
             />
           </div>
 
-          {/* Panneau CTA — diagonale + titre + chevrons comme la maquette */}
+          {/* Panneau CTA: diagonale + titre + chevrons (maquette) */}
           <div className="relative flex flex-1 items-center justify-between gap-4 bg-[#2a2a2a] px-8 py-10 md:-ml-10 md:pl-16 md:pr-10 md:[clip-path:polygon(10%_0,100%_0,100%_100%,0_100%)] lg:pl-20 lg:pr-12">
             <div className="min-w-0 flex-1">
               <h2
@@ -42,11 +42,11 @@ export function PromoBanner() {
               >
                 <span className="block">Jusqu&apos;à −50&nbsp;%</span>
                 <span className="mt-1 block font-sans text-[clamp(1rem,2vw,1.35rem)] font-medium tracking-normal text-secondary/90">
-                  sur les tenues de mariage
+                  sur les tenues de mariage et cérémonie
                 </span>
               </h2>
               <span className="mt-4 inline-block font-sans text-sm text-secondary/60 transition group-hover:text-secondary md:sr-only">
-                Voir les soldes
+                Découvrir les soldes
               </span>
             </div>
 

@@ -52,7 +52,11 @@ export function CartDrawer() {
               {items.length === 0 ? (
                 <div className="flex h-full flex-col items-center justify-center gap-3 text-secondary-muted">
                   <ShoppingBag className="h-10 w-10 opacity-40" />
-                  <p className="text-sm">Votre panier est vide</p>
+                  <p className="text-sm">Votre panier est encore vide</p>
+                  <p className="max-w-[18rem] text-center text-xs">
+                    Ajoutez une pièce depuis la collection pour commencer votre
+                    look ModAfrique.
+                  </p>
                 </div>
               ) : (
                 <ul className="space-y-5">

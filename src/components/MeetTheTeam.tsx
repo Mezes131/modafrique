@@ -13,8 +13,8 @@ export function MeetTheTeam() {
             L&apos;équipe
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-secondary-muted">
-            Designers, stylistes et photographes — la bande qui imagine chaque
-            collection ModAfrique.
+            Designers, stylistes et photographes : l&apos;équipe qui imagine
+            chaque collection ModAfrique, du premier croquis au lookbook final.
           </p>
         </div>
       </SectionReveal>

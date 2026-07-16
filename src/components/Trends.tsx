@@ -13,8 +13,8 @@ export function Trends() {
             Tendances près de vous
           </h2>
           <p className="max-w-sm text-sm leading-relaxed text-secondary-muted">
-            Quatre looks issus de notre dernière session éditoriale — street,
-            cérémonie et quotidien fusionnés.
+            Quatre looks issus de notre dernière session éditoriale : street,
+            cérémonie et quotidien fusionnés dans une même énergie.
           </p>
         </div>
       </SectionReveal>

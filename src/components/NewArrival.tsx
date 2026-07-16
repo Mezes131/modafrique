@@ -23,7 +23,7 @@ export function NewArrival() {
           lg:gap-5
         "
       >
-        {/* Colonne NEW — pleine hauteur (2 rangées) */}
+        {/* Colonne NEW: pleine hauteur (2 rangees) */}
         <div
           className="
             order-last flex items-stretch justify-center py-6
@@ -46,7 +46,7 @@ export function NewArrival() {
           </p>
         </div>
 
-        {/* Cellule 1 — texte */}
+        {/* Cellule 1: texte */}
         <div className="flex flex-col justify-center md:pr-2 lg:pr-4">
           <h2
             id="new-arrival-title"
@@ -54,17 +54,18 @@ export function NewArrival() {
           >
             Nouveautés
           </h2>
-          <p className="mt-4 max-w-[32ch] font-sans text-sm leading-relaxed text-secondary/75 sm:mt-5">
-            Arrivages de saison : coupes nettes, imprimés wax et pièces
-            statement pour un dressing contemporain.
+          <p className="mt-4 max-w-[34ch] font-sans text-sm leading-relaxed text-secondary/75 sm:mt-5">
+            Premiers arrivages de la saison : coupes nettes, imprimés wax et
+            pièces statement pour un dressing contemporain, sans compromis sur
+            la matière.
           </p>
-          <p className="mt-3 max-w-[32ch] font-sans text-sm leading-relaxed text-secondary/75">
-            Explorez les silhouettes qui définissent la collection, du quotidien
-            urbain aux looks de cérémonie.
+          <p className="mt-3 max-w-[34ch] font-sans text-sm leading-relaxed text-secondary/75">
+            Du quotidien urbain aux looks de cérémonie, chaque silhouette
+            raconte une Afrique actuelle, précise et affirmée.
           </p>
         </div>
 
-        {/* Cellule 2 — Discover (brand-1) */}
+        {/* Cellule 2: Discover (brand-1) */}
         <a
           href="#featured"
           className="group relative min-h-[14rem] overflow-hidden md:min-h-0"
@@ -88,7 +89,7 @@ export function NewArrival() {
           </div>
         </a>
 
-        {/* Cellule 3 — wide (marcheuse) */}
+        {/* Cellule 3: wide (marcheuse) */}
         <div className="relative min-h-[12rem] overflow-hidden md:min-h-0">
           <BlurImage
             src="/images/new-wide.webp"
@@ -98,7 +99,7 @@ export function NewArrival() {
           />
         </div>
 
-        {/* Cellule 4 — portrait (trend-4) */}
+        {/* Cellule 4: portrait (trend-4) */}
         <div className="relative min-h-[16rem] overflow-hidden md:min-h-0">
           <BlurImage
             src="/images/trend-4.webp"
