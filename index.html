@@ -2,9 +2,21 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%BASE_URL%favicon-32.png" />
+    <link rel="icon" type="image/png" href="%BASE_URL%favicon.png" />
+    <link rel="apple-touch-icon" href="%BASE_URL%apple-touch-icon.png" />
+    <style>
+      /* ponytail: %BASE_URL% so fonts resolve under /modafrique/ on Pages */
+      @font-face {
+        font-family: "Gobold CUTS";
+        src:
+          url("%BASE_URL%fonts/GoboldCUTS.woff2") format("woff2"),
+          url("%BASE_URL%fonts/GoboldCUTS.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"

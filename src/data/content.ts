@@ -6,9 +6,9 @@ import type {
   ValueProp,
 } from "../types";
 
-// ponytail: normalize any legacy ext to .webp (assets converted for perf)
-const img = (name: string) =>
-  `/images/${name.replace(/\.(jpe?g|png|webp)$/i, "")}.webp`;
+// ponytail: BASE_URL so /modafrique/ works on GitHub Pages
+export const img = (name: string) =>
+  `${import.meta.env.BASE_URL}images/${name.replace(/\.(jpe?g|png|webp)$/i, "")}.webp`;
 
 export const NAV_LINKS = [
   { label: "Accueil", href: "#hero" },

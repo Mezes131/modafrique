@@ -1,4 +1,5 @@
 import { ChevronRight } from "lucide-react";
+import { img } from "../data/content";
 import { BlurImage, SectionReveal } from "./ui";
 
 /**
@@ -20,13 +21,13 @@ export function PromoBanner() {
           {/* Photos: ordre maquette (creme a gauche, rose a droite) */}
           <div className="grid h-56 shrink-0 grid-cols-2 md:h-auto md:w-[48%] lg:w-[46%]">
             <BlurImage
-              src="/images/wedding-1.webp"
+              src={img("wedding-1.webp")}
               alt="Couple en tenue de cérémonie crème"
               className="h-full min-h-0 w-full"
               imgClassName="h-full transition duration-700 group-hover:scale-105"
             />
             <BlurImage
-              src="/images/wedding-2.webp"
+              src={img("wedding-2.webp")}
               alt="Couple en tenue de cérémonie rose"
               className="h-full min-h-0 w-full"
               imgClassName="h-full transition duration-700 group-hover:scale-105"

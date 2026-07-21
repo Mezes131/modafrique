@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Gobold CUTS";
-  src:
-    url("/fonts/GoboldCUTS.woff2") format("woff2"),
-    url("/fonts/GoboldCUTS.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 @layer base {
   :root {
     /* Header fixed : py-4 + ligne ~24px */

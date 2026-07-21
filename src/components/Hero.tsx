@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { img } from "../data/content";
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null);
@@ -19,7 +20,7 @@ export function Hero() {
     >
       <motion.div style={{ y }} className="absolute inset-0">
         <img
-          src="/images/banner.webp"
+          src={img("banner.webp")}
           alt="Lookbook ModAfrique : mode contemporaine africaine"
           className="h-full w-full object-cover"
           fetchPriority="high"

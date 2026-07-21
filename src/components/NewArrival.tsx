@@ -1,3 +1,4 @@
+import { img } from "../data/content";
 import { BlurImage } from "./ui";
 
 /**
@@ -71,7 +72,7 @@ export function NewArrival() {
           className="group relative min-h-[14rem] overflow-hidden md:min-h-0"
         >
           <BlurImage
-            src="/images/brand-1.webp"
+            src={img("brand-1.webp")}
             alt="Tenues traditionnelles d'origine camerounaise"
             className="absolute inset-0 h-full w-full"
             imgClassName="transition duration-700 ease-editorial group-hover:scale-105"
@@ -92,7 +93,7 @@ export function NewArrival() {
         {/* Cellule 3: wide (marcheuse) */}
         <div className="relative min-h-[12rem] overflow-hidden md:min-h-0">
           <BlurImage
-            src="/images/new-wide.webp"
+            src={img("new-wide.webp")}
             alt="Femme en robe bleue et trench, lookbook"
             className="absolute inset-0 h-full w-full"
             imgClassName="transition duration-700 hover:scale-[1.02]"
@@ -102,7 +103,7 @@ export function NewArrival() {
         {/* Cellule 4: portrait (trend-4) */}
         <div className="relative min-h-[16rem] overflow-hidden md:min-h-0">
           <BlurImage
-            src="/images/trend-4.webp"
+            src={img("trend-4.webp")}
             alt="Homme en pantalon rouge contemporain"
             className="absolute inset-0 h-full w-full"
             imgClassName="transition duration-700 hover:scale-[1.02]"
