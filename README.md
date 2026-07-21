@@ -1,32 +1,46 @@
-# React + TypeScript + Vite
+# ModAfrique
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Vitrine e-commerce de **mode contemporaine africaine**.
 
-Currently, two official plugins are available:
+Site live : [mezes131.github.io/modafrique](https://mezes131.github.io/modafrique/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Produit
 
-## React Compiler
+ModAfrique présente une boutique fictive / démo avec :
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Hero lookbook et navigation one-page
+- Catégories (Homme, Femme, Enfants, Casual, Marques)
+- Grille produits (prix XAF, tailles, couleurs, badges)
+- Panier client-side (ajout, quantités, total)
+- Nouveautés, tendances, promo mariage, newsletter
+- Arguments livraison / authenticité / retours
 
-## Expanding the Oxlint configuration
+Contenu et images dans `src/data/content.ts` et `public/images/`.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Stack
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+React 19 · TypeScript · Vite · Tailwind · Framer Motion
+
+## Démarrer
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+En local : [http://localhost:5173/modafrique/](http://localhost:5173/modafrique/)  
+(`base` Vite = `/modafrique/` pour GitHub Pages)
+
+```bash
+npm run build    # → dist/
+npm run preview  # preview du build
+npm run lint
+```
+
+
+
+## Déploiement
+
+Push sur `main` → GitHub Actions déploie sur Pages (`.github/workflows/deploy.yml`).
+
+Settings du repo → **Pages** → Source : **GitHub Actions**.
